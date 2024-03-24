@@ -54,7 +54,7 @@
 
 .item-header a:hover {
   cursor: pointer;
-  color: #030eac;
+  color: #20f8ffbb;
 }
 
 /* NAVBAR */
@@ -209,9 +209,13 @@ input {
   padding: 10px;
 }
 
-.text-under-search p {
+.text-under-search a {
   font-size: 12px;
   margin-right: 10px;
+}
+
+.text-under-search a:hover {
+  color: #20f8ffbb ;
 }
 
 body {
