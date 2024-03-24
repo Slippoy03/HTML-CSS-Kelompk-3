@@ -5,13 +5,14 @@
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #5f68eb;
 }
 
 .header {
   position: relative;
   z-index: 9999;
   padding: 2px 35px;
-  background-color: #f4f4f4;
+  background-color: #5f68eb;
 }
 
 .header-top {
@@ -32,7 +33,7 @@
 
 .download-tokopedia span {
   font-size: 13px;
-  color: #929292;
+  color: #030eac;
 }
 
 .item-header {
@@ -43,17 +44,17 @@
 
 .item-header a {
   font-size: 13px;
-  color: #929292;
+  color: #030eac;
 }
 
 .download-tokopedia span:hover {
   cursor: pointer;
-  color: #03ac0e;
+  color: #0314ac;
 }
 
 .item-header a:hover {
   cursor: pointer;
-  color: #03ac0e;
+  color: #20f8ffbb;
 }
 
 /* NAVBAR */
@@ -63,13 +64,14 @@
   align-items: center;
   flex-direction: column;
   padding: 5px 35px;
-  border-bottom: 1px solid #929292;
+  border-bottom: 1px solid #030eac;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   width: 100%;
+  cursor: pointer;
 }
 
 .kategory {
@@ -84,10 +86,10 @@
 .kategory:hover {
   cursor: pointer;
   border-radius: 5px;
-  background-color: #f3f4f5;
 }
 
 .navbar-nav img {
+  width: 10%;
   padding-top: 5px;
 }
 
@@ -95,7 +97,7 @@
   display: flex;
   align-items: center;
   margin-left: 50px;
-  border: 1px solid #929292;
+  border: 1px solid #030eac;
   padding: 5px 10px;
   width: 52%;
   height: 35px;
@@ -109,12 +111,17 @@
   font-size: 13px;
   outline: none;
   border: none;
+  color: #030eac;
+}
+
+input {
+  color: #030eac;
 }
 
 .form-search svg {
   width: 20px;
   height: 20px;
-  color: #929292;
+  color: #030eac;
 }
 
 .shoping-cart {
@@ -134,13 +141,12 @@
 .shoping-cart:hover {
   cursor: pointer;
   border-radius: 5px;
-  background-color: #f3f4f5;
 }
 
 .line {
   font-size: 26px;
   margin-left: 25px;
-  color: #cdcdcd;
+  color: #030eac;
   margin-bottom: 10px;
   font-weight: 100;
 }
@@ -150,7 +156,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 12px;
-  border: 1px solid #03ac0e;
+  border: 1px solid #0339ac;
   border-radius: 5px;
   height: 30px;
   width: 70px;
@@ -158,9 +164,9 @@
 
 .navbar-nav .btn-masuk button {
   font-weight: bold;
-  background-color: #ffff;
+  background-color: #5f68eb;
   border: none;
-  color: #03ac0e;
+  color: #0004ff;
 }
 
 .navbar-nav .btn-daftar {
@@ -168,8 +174,8 @@
   align-items: center;
   justify-content: center;
   margin-left: 12px;
-  border: 1px solid #03ac0e;
-  background-color: #03ac0e;
+  border: 1px solid #0339ac;
+  background-color: #0004ff;
   border-radius: 5px;
   height: 30px;
   width: 70px;
@@ -178,7 +184,7 @@
 .navbar-nav .btn-daftar button {
   font-weight: bold;
   border: none;
-  background-color: #03ac0e;
+  background-color: #0004ff;
   color: #ffff;
 }
 
@@ -204,15 +210,19 @@
   padding: 10px;
 }
 
-.text-under-search p {
+.text-under-search a {
   font-size: 12px;
   margin-right: 10px;
+}
+
+.text-under-search a:hover {
+  color: #20f8ffbb;
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #0415ff;
 }
 
 main {
@@ -232,14 +242,14 @@ main {
 }
 
 .product {
-  background-color: #fff;
+  background-color: #5f68eb;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .product img {
-  width: 60%;
+  width: 50%;
   height: fit-content;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -250,13 +260,13 @@ main {
 }
 
 .product p {
-  color: #888;
+  color: #0230ff;
 }
 
 .btn {
   display: inline-block;
-  background-color: #333;
-  color: #fff;
+  background-color: #1900ff;
+  color: #000000;
   text-decoration: none;
   padding: 8px 20px;
   border-radius: 5px;
@@ -264,12 +274,13 @@ main {
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #00b7ff;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #333;
-  color: #fff;
+}
+
+@media screen {
 }
