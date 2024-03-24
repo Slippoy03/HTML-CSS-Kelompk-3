@@ -5,13 +5,14 @@
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #5f68eb;
 }
 
 .header {
   position: relative;
   z-index: 9999;
   padding: 2px 35px;
-  background-color: #f4f4f4;
+  background-color: #156ccf;
 }
 
 .header-top {
@@ -48,12 +49,12 @@
 
 .download-tokopedia span:hover {
   cursor: pointer;
-  color: #03ac0e;
+  color: #0314ac;
 }
 
 .item-header a:hover {
   cursor: pointer;
-  color: #03ac0e;
+  color: #030eac;
 }
 
 /* NAVBAR */
@@ -88,6 +89,7 @@
 }
 
 .navbar-nav img {
+  width: 10%;
   padding-top: 5px;
 }
 
@@ -150,7 +152,7 @@
   align-items: center;
   justify-content: center;
   margin-left: 12px;
-  border: 1px solid #03ac0e;
+  border: 1px solid #0339ac;
   border-radius: 5px;
   height: 30px;
   width: 70px;
@@ -158,9 +160,9 @@
 
 .navbar-nav .btn-masuk button {
   font-weight: bold;
-  background-color: #ffff;
+  background-color: #5f68eb;
   border: none;
-  color: #03ac0e;
+  color: #0004ff;
 }
 
 .navbar-nav .btn-daftar {
@@ -168,8 +170,8 @@
   align-items: center;
   justify-content: center;
   margin-left: 12px;
-  border: 1px solid #03ac0e;
-  background-color: #03ac0e;
+  border: 1px solid #0339ac;
+  background-color: #0004ff;
   border-radius: 5px;
   height: 30px;
   width: 70px;
@@ -178,7 +180,7 @@
 .navbar-nav .btn-daftar button {
   font-weight: bold;
   border: none;
-  background-color: #03ac0e;
+  background-color: #0004ff;
   color: #ffff;
 }
 
@@ -212,7 +214,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #0415ff;
 }
 
 main {
@@ -232,7 +234,7 @@ main {
 }
 
 .product {
-  background-color: #fff;
+  background-color: #096bff;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -250,13 +252,13 @@ main {
 }
 
 .product p {
-  color: #888;
+  color: #000000;
 }
 
 .btn {
   display: inline-block;
-  background-color: #333;
-  color: #fff;
+  background-color: #1900ff;
+  color: #000000;
   text-decoration: none;
   padding: 8px 20px;
   border-radius: 5px;
@@ -264,12 +266,10 @@ main {
 }
 
 .btn:hover {
-  background-color: #555;
+  background-color: #00b7ff;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #333;
-  color: #fff;
 }
