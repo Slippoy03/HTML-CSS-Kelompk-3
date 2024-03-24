@@ -234,14 +234,14 @@ main {
 }
 
 .product {
-  background-color: #096bff;
+  background-color: #5f68eb;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .product img {
-  width: 60%;
+  width: 50%;
   height: fit-content;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -252,7 +252,7 @@ main {
 }
 
 .product p {
-  color: #000000;
+  color: #0230ff;
 }
 
 .btn {
@@ -272,4 +272,5 @@ main {
 footer {
   text-align: center;
   padding: 20px;
+
 }
