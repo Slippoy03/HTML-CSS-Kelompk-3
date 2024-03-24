@@ -71,6 +71,7 @@
   display: flex;
   align-items: center;
   width: 100%;
+  cursor: pointer;
 }
 
 .kategory {
@@ -215,7 +216,7 @@ input {
 }
 
 .text-under-search a:hover {
-  color: #20f8ffbb ;
+  color: #20f8ffbb;
 }
 
 body {
@@ -279,4 +280,7 @@ main {
 footer {
   text-align: center;
   padding: 20px;
+}
+
+@media screen {
 }
