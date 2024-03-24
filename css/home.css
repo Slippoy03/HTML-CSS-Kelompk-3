@@ -12,7 +12,7 @@
   position: relative;
   z-index: 9999;
   padding: 2px 35px;
-  background-color: #156ccf;
+  background-color: #5f68eb;
 }
 
 .header-top {
@@ -33,7 +33,7 @@
 
 .download-tokopedia span {
   font-size: 13px;
-  color: #929292;
+  color: #030eac;
 }
 
 .item-header {
@@ -44,7 +44,7 @@
 
 .item-header a {
   font-size: 13px;
-  color: #929292;
+  color: #030eac;
 }
 
 .download-tokopedia span:hover {
@@ -64,7 +64,7 @@
   align-items: center;
   flex-direction: column;
   padding: 5px 35px;
-  border-bottom: 1px solid #929292;
+  border-bottom: 1px solid #030eac;
 }
 
 .navbar {
@@ -85,7 +85,6 @@
 .kategory:hover {
   cursor: pointer;
   border-radius: 5px;
-  background-color: #f3f4f5;
 }
 
 .navbar-nav img {
@@ -97,7 +96,7 @@
   display: flex;
   align-items: center;
   margin-left: 50px;
-  border: 1px solid #929292;
+  border: 1px solid #030eac;
   padding: 5px 10px;
   width: 52%;
   height: 35px;
@@ -111,12 +110,17 @@
   font-size: 13px;
   outline: none;
   border: none;
+  color: #030eac;
+}
+
+input {
+  color: #030eac;
 }
 
 .form-search svg {
   width: 20px;
   height: 20px;
-  color: #929292;
+  color: #030eac;
 }
 
 .shoping-cart {
@@ -136,13 +140,12 @@
 .shoping-cart:hover {
   cursor: pointer;
   border-radius: 5px;
-  background-color: #f3f4f5;
 }
 
 .line {
   font-size: 26px;
   margin-left: 25px;
-  color: #cdcdcd;
+  color: #030eac;
   margin-bottom: 10px;
   font-weight: 100;
 }
@@ -272,5 +275,4 @@ main {
 footer {
   text-align: center;
   padding: 20px;
-
 }
