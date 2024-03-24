@@ -1,0 +1,202 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left {
+  flex: 1;
+  position: relative;
+}
+
+.product-image {
+  width: 80%;
+  transition: transform 0.5s;
+  margin-left: 2em;
+}
+
+.product-image:hover {
+  transform: scale(1.2);
+}
+
+.middle {
+  flex: 2;
+  padding: 0 20px;
+}
+
+.middle h1 {
+  margin-top: 0;
+}
+
+.details {
+  margin-bottom: 20px;
+}
+
+.sold {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.highlight {
+  color: #000;
+}
+
+.options span {
+  cursor: pointer;
+  position: relative;
+}
+
+.options span.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 0.3em;
+  background-color: green;
+}
+
+.active {
+  color: green;
+}
+
+.shop-info {
+  margin-top: 20px;
+}
+.shop-logo {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.follow-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+
+.following {
+  background-color: white;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.follow-btn:hover {
+  background-color: #005500;
+}
+.following:hover {
+  background-color: #ccc;
+}
+
+.shipping p {
+  margin: 5px 0;
+}
+
+.right {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.buy {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.quantity-container p {
+  margin-top: 0;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quantity button {
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.quantity button:hover {
+  background-color: #ccc;
+}
+
+.add-to-cart-btn,
+.order-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.add-to-cart-btn:hover,
+.order-btn:hover {
+  background-color: #005500;
+}
+
+.star-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.green-text {
+  color: green;
+  cursor: pointer;
+}
+
+.green-text:hover {
+  text-decoration: underline;
+}
