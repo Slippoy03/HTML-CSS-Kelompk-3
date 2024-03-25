@@ -37,7 +37,7 @@ function generateProductList(category, containerId) {
         detailButton.classList.add('detail-button');
         detailButton.addEventListener('click', () => {
             // Redirect to product detail page
-            window.location.href = `product-detail.html?product=${product.name}`;
+            window.location.href = `detail.html?product=${product.name}`;
         });
 
         productItem.appendChild(image);

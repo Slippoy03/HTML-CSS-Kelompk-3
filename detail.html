@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Produk</title>
+    <link rel="stylesheet" href="css/detail.css" />
+  </head>
+  <body>
+    <object
+      type="text/html"
+      data="header.html"
+      width="100%"
+      height="auto"
+    ></object>
+    <div class="container">
+      <div class="left">
+        <img src="img-prod/1.png" alt="Produk" class="product-image" />
+      </div>
+      <div class="middle">
+        <h1>Red Not 9</h1>
+        <div class="details">
+          <div class="sold">
+            Terjual 80+
+            <div class="divider"></div>
+            <img src="img/bintang.png" alt="Bintang" class="star-icon" />
+            <div class="divider"></div>
+            5
+          </div>
+          <div class="price">
+            Harga <span class="highlight">Rp 2.000.000</span>
+          </div>
+          <div class="options">
+            <p>
+              <span id="detailTab" class="active" onclick="showDetail()"
+                >Detail</span
+              >
+              |
+              <span id="infoPentingTab" onclick="showInfo()">Info Penting</span>
+            </p>
+          </div>
+          <div id="detail">
+            <p><strong>Detail Produk:</strong></p>
+            <p>Kondisi: Baru</p>
+            <p>Waktu Preorder: 3 Hari</p>
+            <p>Min. Pemesanan: 1 Buah</p>
+            <p>Etalase: - HP Gaming</p>
+          </div>
+          <div id="infoPenting" style="display: none">
+            <p><strong>Info Penting:</strong></p>
+            <p>
+              Setiap pembelian dan checkout kami anggap anda telah membaca dan
+              menyetujui syarat dan ketentuan (Terms and Conditions) yang
+              berlaku.
+            </p>
+            <p>
+              <span class="green-text" onclick="showPopup()">Selengkapnya</span>
+            </p>
+            <div class="popup-overlay" id="popupOverlay">
+              <div class="popup">
+                <span class="close-btn" onclick="hidePopup()">×</span>
+                <h2>Informasi Tambahan</h2>
+              </div>
+            </div>
+          </div>
+          <div class="shop-info">
+            <img src="img/logo.png" alt="Logo Gadget Keren" class="shop-logo" />
+            <span class="shop-name">Gadget Keren</span>
+            <button class="follow-btn" onclick="toggleFollow()">Follow</button>
+          </div>
+          <div class="shipping">
+            <p><strong>Pengiriman</strong></p>
+            <p>Dikirim dari kota Jakarta</p>
+            <p>Ongkir Reguler: Rp 42.000 - Rp 150.000</p>
+            <p>Estimasi Tiba: 29 Mar - 2 Apr</p>
+            <p><span class="green-text">Lihat Pilihan Kurir</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <p>Beli Lokal</p>
+        <div class="buy">
+          <div class="quantity-container">
+            <p>Atur Jumlah dan Catatan</p>
+
+            <div class="quantity">
+              <button onclick="decrementQuantity()">-</button>
+              <span id="quantity">1</span>
+              <button onclick="incrementQuantity()">+</button>
+            </div>
+            <p id="total">Rp 8.000.000</p>
+
+            <button class="add-to-cart-btn">+ Keranjang</button>
+            <button class="order-btn">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/detail.js"></script>
+  </body>
+</html>
